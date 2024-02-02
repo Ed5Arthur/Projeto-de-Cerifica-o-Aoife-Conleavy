@@ -2,6 +2,26 @@ html {
     font-size: 18px;
 }
 
+@font-face {
+    font-family: "Croissant One";
+    src: url('CroissantOne-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "Abril Fatface";
+    src: url('AbrilFatface-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "Merriweather";
+    src: url('Merriweather-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "Work Sans";
+    src: url('WorkSans-VariableFont_wght.ttf') format('truetype');
+}
+
 @media only screen and (max-width: 1000px) {
     html {
         font-size: 16px;
@@ -214,6 +234,7 @@ footer em {
     footer {
         flex-direction: column;
         padding: 0 10% 2rem 10%;
+        font-family: "Croissant One", "Merriweather", serif;
     }
 
     footer .image-container {
